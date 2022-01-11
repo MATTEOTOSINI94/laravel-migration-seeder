@@ -60,7 +60,7 @@
             }
 
             .m-b-md {
-                margin-bottom: 30px;
+                margin-bottom: 50px;
             }
         </style>
     </head>
@@ -73,7 +73,7 @@
         <div class="row m-0 text-center justify-content-center">
             
         @foreach ($viaggio as $trip)
-        <div class="col-5">
+        <div class="col-4">
           <img style="width:300px" src="{{$trip["img_place"]}}" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">{{$trip["location_trip"]}}</h5>
